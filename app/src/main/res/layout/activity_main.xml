@@ -4,6 +4,7 @@
     android:background="#FFFFFF">
 
     <LinearLayout
+        android:id="@+id/main"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -90,6 +91,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/layout_saved"
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
@@ -98,8 +100,9 @@
 
                 <ImageView
                     android:layout_width="40dp"
-                    android:layout_height="40dp"
+                    android:layout_height="44dp"
                     android:src="@drawable/ic_bookmark" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -130,6 +133,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/layout_customize"
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
@@ -140,14 +144,15 @@
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:src="@drawable/ic_settings" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Tùy chỉnh"
                     android:textSize="12sp"
                     android:textColor="#000000" />
-
             </LinearLayout>
+
         </LinearLayout>
 
         <!-- Đã ghim + Sửa -->
@@ -168,6 +173,7 @@
                 android:textColor="#000000" />
 
             <TextView
+                android:id="@+id/text_edit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Sửa"

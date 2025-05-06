@@ -15,6 +15,8 @@
         android:background="#FFFFFF">
 
         <ImageView
+            android:clickable="true"
+            android:focusable="true"
             android:id="@+id/back_icon"
             android:layout_width="24dp"
             android:layout_height="24dp"
@@ -140,7 +142,8 @@
                     android:layout_marginStart="8dp"
                     android:background="@drawable/rounded_corners"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/IMG_4489" />
+                    android:src="@drawable/chevron_left_24dp_e3e3e3_fill0_wght400_grad0_opsz24"
+                    />
             </LinearLayout>
 
             <!-- Mẫu 2 (giống mẫu 1, chỉ thay nội dung) -->
@@ -187,7 +190,7 @@
                     android:layout_marginStart="8dp"
                     android:background="@drawable/rounded_corners"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/IMG_4613" />
+                    android:src="@drawable/chevron_right_24dp_e3e3e3_fill0_wght400_grad0_opsz24" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

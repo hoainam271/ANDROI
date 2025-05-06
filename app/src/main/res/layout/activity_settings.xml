@@ -18,13 +18,18 @@
             android:paddingStart="16dp"
             android:paddingEnd="16dp">
 
-            <ImageView
+            <ImageButton
                 android:id="@+id/back_icon"
-                android:layout_width="24dp"
-                android:layout_height="24dp"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
                 android:layout_centerVertical="true"
+                android:background="?attr/selectableItemBackgroundBorderless"
                 android:src="@drawable/chevron_left_24dp_e3e3e3_fill0_wght400_grad0_opsz24"
-                android:tint="#000000" />
+                android:tint="#000000"
+                android:contentDescription="Quay lại" />
+
+
+
 
             <TextView
                 android:id="@+id/header_title"
