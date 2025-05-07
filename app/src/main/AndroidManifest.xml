@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
+        android:name=".MyApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -22,6 +23,10 @@
         <activity android:name=".SavedActivity" />
         <activity android:name=".SettingsActivity" />
         <activity android:name=".EditWidgetsActivity" />
+        <activity android:name=".NotificationSettingsActivity" />
+        <activity android:name=".FeedbackActivity" />
+        <activity android:name=".EditorialInfoActivity" />
+        <activity android:name=".AdsContactActivity" />
 
     </application>
 
